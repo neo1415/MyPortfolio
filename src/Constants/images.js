@@ -17,6 +17,7 @@ import redux from '../Assets/redux.png';
 import sass from '../Assets/sass.png';
 import typescript from '../Assets/typescript.png';
 import vue from '../Assets/vue.png';
+import wordpress from '../Assets/wordpress.png'
 
 import about01 from '../Assets/about01.png';
 import about02 from '../Assets/about02.png';
@@ -51,6 +52,7 @@ export default {
   node,
   python,
   react,
+  wordpress,
   redux,
   sass,
   typescript,

@@ -76,6 +76,7 @@
 .app__header-badge .tag-cmp {
   flex-direction: column;
   margin-top: 5rem;
+  margin-left: -2.5rem;
 }
 
 .app__header-badge .tag-cmp p {
@@ -129,6 +130,12 @@
   height: 100px;
 }
 
+@media screen and (max-width: 780) {
+  .app__header-circles div:nth-child(1) {
+    margin-top: 17rem;
+  }
+}
+
 .app__header-circles div:nth-child(2) {
   margin: 1.75rem;
   width: 150px;
@@ -144,6 +151,7 @@
   .app__header-circles div:nth-child(1) {
     width: 400px;
     height: 400px;
+    right: 0;
   }
   .app__header-circles div:nth-child(2) {
     width: 170px;
@@ -152,6 +160,13 @@
   .app__header-circles div:nth-child(3) {
     width: 200px;
     height: 200px;
+  }
+}
+
+@media screen and (min-width: 2000) {
+  .app__header-circles div:nth-child(1) {
+    right: 0;
+    margin-top: 12rem;
   }
 }
 
@@ -168,7 +183,7 @@
 }
 
 .app__header-image {
-  flex: 1;
+  flex: 2;
   height: 100%;
   display: flex;
   justify-content: flex-end;
@@ -177,6 +192,7 @@
 }
 
 .app__header-image img {
+  margin-top: 0rem;
   width: 100%;
   object-fit: contain;
   z-index: 1;
@@ -194,6 +210,6 @@
 
 @media screen and (max-width: 1200px) {
   .app__header-image {
-    margin: 2rem 0;
+    margin: -11rem 0;
   }
 }
